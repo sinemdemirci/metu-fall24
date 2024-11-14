@@ -1,0 +1,1104 @@
+---
+title: "Evolving Landscape of Data Science Education"
+subtitle: "From Instructor Pedagogy to Policy Perspectives"
+author: "_Sinem Demirci, Ph.D._"
+format: 
+  revealjs:
+      theme: default
+      slide-number: true
+      chalkboard: true
+      incremental: true
+---
+
+## Merhaba!
+
+::: {style="text-align: center"}
+```{=html}
+<img src="img/sinem.jpeg" alt="A headshot of a woman with curly, short, shoulder-length hair with green eyes."
+  style="width: 280px; height: 280px; border-radius: 100%; margin-top: 5px; border: 1px solid whitesmoke; padding: 5px;">
+```
+
+__Sinem Demirci, PhD__
+
+::: {style="text-align: center; font-size: 26px"}
+
+{{< fa brands github >}} <a href = "http://github.com/sinemdemirci" target =_blank>sinemdemirci</a>\
+
+{{< fa brands twitter >}} <a href = "http://twitter.com/sinemmdemirci" target =_blank>sinemmdemirci</a>\
+
+{{< fa brands linkedin >}} <a href = "https://www.linkedin.com/in/drsinemdemirci/" target =_blank>drsinemdemirci</a>\
+
+{{< fa envelope >}} <a href = "mailto:sdemirci@calpoly.edu" target =_blank>sdemirci@calpoly.edu</a>\
+
+:::
+:::
+
+## 
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 24px"}
+::: fragment
+![](img/entire.png)
+<br>
+<br>
+
+Figure 1. Self-Conceptualization of Data Science Education Layers
+
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 24px"}
+::: fragment
+
+- My short journey to data science education  
+- Data Science and The Layers of Data Science Education
+
+- Undergraduate Data Science Education at the Research and Policy Level  
+  - Aim of the study 
+  - Methodology
+  - Strengths and Knowledge Gaps
+
+- Undergraduate Data Science Education at the Instructor Level
+  - Pedagogical Content Knowledge
+  - Aim of the Study 
+  - Methodology & Highlights from the Initial Findings
+  
+- Weaving Them Together: Further Agenda
+
+:::
+:::
+:::
+:::
+
+# Data Science: A Brief Introduction
+
+
+## 
+### What is Data Science?
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: incremental
+
+- an emergent field that blends multiple areas.  
+- demands expertise in a range of skills and concepts spanning statistics, computer science, mathematics, and other domains (Mike and Hazzan, 2023).
+- no agreement for a single definition because of its multifaceted nature.
+-   A Venn diagram is typically used to help illustrate the interdisciplinary nature of data science as a discipline.
+
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: incremental
+::: {style="font-size: 28px"}
+::: fragment
+```{=html}
+<img src="img/data-science.png" alt="Venn diagram of data science composed of application domain, computer science, and mathematics and statistics. Data science is located at the intersection of these three domains."
+  style="width: 450px; height: 450px; margin-top: 15px; border: 3px solid whitesmoke; padding: 5px;">
+```
+:::
+
+::: fragment
+Venn diagram of data science (Mike and Hazzan, 2023)
+:::
+:::
+:::
+:::
+:::
+
+## 
+### Data Science in Higher Education Context
+
+::: {style="text-align: center; font-size: 30px"}
+-   The interdisciplinary nature of data science has been discussed in data science education community (e.g., Asamoah et al., 2020)
+    -   It brings unique challenges to determine the scope and content of data science courses/majors (Yan & Davis, 2019).
+-   Some initiatives have been taken to provide curriculum guidelines for data science (e.g., De Veaux et al., 2017; National Academies of Sciences, Engineering and Medicine, 2018 ) and essential skills for a data scientist (e.g., De Veaux et al., 2017)
+    -   More research on data science education is required
+        -   to enhance the scope and
+        -   to cultivate proficient data scientists who can meet the growing demand for data scientists in various professional fields.
+:::
+
+## 
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 24px"}
+::: fragment
+![](img/entire.png)
+
+
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 24px"}
+
+
+
+
+:::
+:::
+:::
+
+
+
+## 
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+
+![](img/policy.png)
+
+:::
+
+
+::: {.column width="50%"}
+
+<br>
+<br>
+
+__Undergraduate Data Science Education at the Policy Level__
+
+:::
+:::
+
+
+## 
+### Introduction
+
+::: {style="font-size: 27px"}
+::: {.incremental}
+
+- Undergraduate data science education is a major focus in the data science education community. 
+
+- Efforts being made to identify data science competencies such as
+  - The Park City Math Institute report (De Veaux et al.2017), 
+  - The Framework of National Academies of Sciences, Engineering, and Medicine (2021), 
+  - Association for Computing Machinery’s computing competencies guidelines (Danyluk et al.2021), and 
+  - European Union’s EDISON project (Wiktorski et al.2017a). 
+  - Accreditation Board for Engineering
+and Technology’s (ABET’s) accreditation for data science programs (2024)
+
+- A global call for need by many professional organizations and scholars to understand undergraduate data science education as well as the scientific literature on this topic.  
+
+:::
+:::
+
+## Aim of the study 
+
+In this project, the goals were to 
+
+(1) specify current evidence and knowledge gaps in undergraduate data science education and 
+(2) inform policymakers and data science educators/practitioners about the present status of data science education. 
+
+We conducted a systematic literature review (Evans & Benefield, 2001; Liberati et al., 2009) by using certain criteria.
+
+
+## Methodology
+
+::: {style="font-size: 30px"}
+
+- __Systematic literature review__ is generally used for informing evidence-based decisions in a field by compiling all empirical evidence that fits pre-determined inclusion and exclusion criteria (Evans & Benefield, 2001; Liberati et al., 2009). 
+
+::: fragment
+  - This approach was selected within the context of the study because we aimed to 
+      (1) to gain a deeper understanding to be able to specify current evidence and knowledge gaps; 
+      (2) inform policymakers and data science educators/practitioners; and  
+:::
+::: 
+
+##
+
+![](img/data-collection.png)
+
+##
+
+![](img/data-analysis-2.png)
+
+
+# Highlighted Findings
+
+##
+
+::: columns
+::: {.column width="50%"}
+
+::: fragment
+
+<br>
+<br>
+
+![](img/comp-dse-1.png)
+:::
+:::
+
+
+::: {.column width="50%"}
+::: {style="font-size: 30px"}
+
+<br>
+<br>
+<br>
+<br>
+
+The body of literature detected is very recent, increasing
+monotonically, and the oldest paper published in 2015.
+
+<br>
+
+The literature on data science education across various scientific disciplines is extensive yet fragmented.
+
+:::
+:::
+:::
+
+
+## 
+
+![](img/comp-dse-2.png){fig-align="center"}
+
+
+## 
+#### Strengths in Undergraduate Data Science Education
+
+::: {style="font-size: 27px"}
+
+::: fragment
+__1. Open Access:__ A majority of published studies in undergraduate data science education are open access, marking a substantial strength in the field.
+:::
+
+::: fragment
+__2. Interdisciplinarity:__ Scholars from diverse fields are contributing the data science education literature.
+
+::: fragment
+Data science education practices in different programs such as  
+  - data science programs,   
+  - computer science education (Bile Hassan & Liu, 2020),     
+  - microbiology (Dill-McFarland et al., 2021), and  
+  - business (Miah et al., 2020).
+:::
+
+::: fragment
+The course examples as  
+  - introductory computing (Fisler, 2022),   
+  - modern technologies course    
+  - computer science and engineering students (Rao et al.,2019),  
+  - general education IT course (Haynes et al.(2019)),  
+  - medicine (Doudesis & Manataki(2022b)),  
+  - psychology (Tucker et al.(2023)).  
+
+:::
+:::
+:::
+
+# Knowledge Gaps
+
+## 
+::: {style="font-size: 30px"}
+
+__1. There is no suﬀicient empirical data:__ 44 studies out of 77 did not collect data. 
+
+- Given the scopes of content areas such as calls to action, educational technology, and program examples coupled with the emergent nature of the field, the lack of empirical data is not a surprising finding. 
+
+    - However, it also suggests that undergraduate data science educators have not yet begun collecting empirical data systematically.
+    
+
+::: fragment
+    
+::: {.callout-warning}
+
+Emphasis on lack of empirical data is not a promotion of empiricism over all other ‘ways of knowing’.
+
+What is being highlighting is the disproportionately high percentage of studies lacking empirical data, 
+
+  - which complicates the literature’s potential for gaining a deeper understanding and identifying recurring patterns.
+:::
+:::
+:::
+
+
+## 
+::: {style="font-size: 30px"}
+
+__2. Reproducibility is one of the potential challenges in undergraduate data science education research:__ 
+Speculatively, the absence of critical information about research designs, such as the lack of research questions, participants’ profile and non-collection of data may contribute to the reduced reproducibility of available studies. 
+
+- One could argue that succinct nature of conference articles may inadvertently interfere with the comprehensive documentation necessary for the effective replication or modification of research.
+
+- A potential reason for this gap may also be the minimal training that most instructors receive in reproducibility (Horton et al. 2022).
+
+:::
+
+##
+
+::: {style="font-size: 30px"}
+
+__3. Not all Data Science disciplines contribute equally to the overall body of knowledge:__  The prevailing trend indicates ongoing multidisciplinary collaborations. 
+
+- Notably, computer science and data science emerge as the leading contributors to the literature. 
+  - In contrast, fields such as statistics, mathematics, as well as other fields closely related to data science exhibit a limited presence in studies related to undergraduate data science education. 
+
+- We believe that there are data science education studies in Statistics education community but they might not use this keyword "data science education" exclusively in their abstract/title/keywords etc. 
+
+:::
+
+## Recommendations 
+
+Scientific studies are an integral part to review existing practices as well as to improve higher education institutions’ data science practices. Thus, we should
+
+::: fragment
+
+__Recommendation 1:__ Prioritize investments in empirical studies.
+:::
+
+::: fragment
+__Recommendation 2:__ Diversify research efforts to enrich the spectrum of studies. 
+:::
+
+::: fragment
+__Recommendation 3:__ Encourage scholars in key data science fields to contribute more to publications.
+:::
+
+
+
+## 
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+
+![](img/instructor.png)
+
+:::
+
+
+::: {.column width="50%"}
+
+<br>
+<br>
+
+__Undergraduate Data Science Education at the Instructor Level__
+
+:::
+:::
+
+
+## Agenda
+
+
+- Background and Motivation
+- Aim of the Talk
+- Recruitment and Data Collection 
+- Similarities & Differences in 
+  - Introductory Data Science (IDS) Courses
+  - IDS Students
+  - IDS Instructors
+- Highlights and Shadows in IDS Teaching/Learning Environments
+
+
+## Pedagogical Content Knowledge-I
+
+::: {style="text-align: center; font-size: 30px"}
+-   Pedagogical content knowledge (PCK) is one of the theoretical frameworks that provide an insight to an integration of content and pedagogy to teaching that enable instructors to monitor their teaching practices (Shulman, 1987).
+-   In addition to content knowledge, it requires additional knowledge and skills.
+-   In Magnusson et al.'s PCK model (1999) for science teaching, five components were specified as
+
+(1) orientation toward teaching;
+(2) knowledge of learners;
+(3) knowledge of curriculum;
+(4) knowledge of instructional strategies; and
+(5) knowledge of assessment.
+:::
+
+## 
+
+![Figure 3. Hexagon model of pedagogical content knowledge for science teaching (Park & Oliver, 2008, p.279)](img\pck-park-oliver-2008.png){fig-align="center" width="100%"}
+
+
+## Introduction to Data Science Courses
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: {.nonincremental}
+
+<br> 
+
+-   Introduction to Data Science (IDS) courses are introductory courses offered by different departments such as mathematics, statistics, data science, or computer science aiming to enable individuals to grasp the basics of data science.
+    -   Even though majority of the enrolled students are from these departments, students are coming from almost every major/department to these courses.
+
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 20px"}
+
+<br>
+
+![<a href="https://www.freepik.com/free-vector/illustration-data-analysis-graph_2807756.htm#query=data%20science&position=2&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik](img/data-science-2.jpg){fig-align="center" width="100%"}
+
+
+
+:::
+:::
+:::
+
+
+
+## 
+### Motivation Behind This Talk
+
+<br>
+
+::: {style="text-align: left; font-size: 24px"}
+
+_"I think introduction to data science is a pretty difficult course to teach... So, the other [intro course that I taught] was quite stable. But from my current experience with data science, stable will not be the word that I will describe."_ __[Participant 14]__
+:::
+ 
+<br>
+
+::: {style="text-align: right; font-size: 24px"}
+
+_"I hope that what I’m doing here [teaching IDS course] is useful"_ __[Participant 13]__
+:::
+
+<br>
+
+::: {style="text-align: left; font-size: 24px"}
+
+_I would say something I think about on this course a lot is… Is it necessary? Would students be better served by [other] classical intro data science course where they are doing [something else]. And I don't know the answer._ __[Participant 09]__
+:::
+
+<br>
+
+::: {style="text-align: right; font-size: 24px"}
+
+_I know that other people have different configurations of introductory  data science, and that includes ... some aspects of statistics. So, I am curious about ultimately what you [this research] find out about that, and what is the right configuration?_ __[Participant 07]__
+:::
+
+
+## 
+### Aim of This Talk
+::: columns
+::: {.column width="40%"}
+
+![](img/lego-04.png){fig-align="center" width="40%"}
+
+:::   
+
+::: {.column width="60%"}
+::: {style="font-size: 24px"}
+
+- to provide a glimpse into the practices of introductory data science courses with __qualitative data__.
+
+<br>
+
+- to share range of examples across following dimensions:
+    - content choices  
+    - student background 
+    - instructional approaches 
+    - course capacity 
+
+   
+
+<br>
+
+- __NOT__ prescribe the ideal configuration for IDS courses.
+:::
+:::
+:::
+
+
+## 
+### Methodology
+
+
+<br>
+
+We chose __qualitative research design__ (Merriam, 2009).
+
+<br> 
+
+Our aim was to understand 
+
+<br>
+
+- how IDS instructors interpret their teaching experiences in IDS courses    
+
+- “what meaning they attribute to their experiences” (Merriam, 2009, p. 23). 
+
+
+## 
+### Procedure to Recruit Participants
+
+<br>
+
+:::: columns
+::: {.column width="60%"}
+::: {style="font-size: 32px"}
+
+We recruited participants...
+
+- who **taught an IDS course at least twice** at the undergraduate level.
+
+
+- whose course titles included __Data Science__ and one of the following keywords: __Introduction, Principles, Elements or Fundamentals __
+
+-  **16 participants** (2 pilot, 14 main study)
+
+-  Gift card for their time.
+:::
+:::
+
+::: {.column width="40%"}
+
+![](img/2.png)
+:::
+:::
+
+
+## 
+### Data Collection and Analysis
+
+![](img/4.png){fig-align="center"}
+
+##
+### IDS Teaching/Learning Environments
+
+::: {style="font-size: 14px"}
+
+<br>
+
+![](img/phd-comic.jpg){fig-align="center"} 
+
+Source:[PHDCOMICS](https://phdcomics.com/comics/archive_print.php?comicid=2002)
+
+:::
+
+
+
+##
+### IDS Teaching/Learning Environments - 1 
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+
+<br>
+
+Table 1: Institution type 
+
+| Institution         | _n_ |
+|---------------------|-----|
+| Research University |  6  |
+| Liberal Arts College|  8  |
+
+<div style="text-align: center;">
+  <img src="img/3.png" style="width: 40%;">
+</div>
+
+
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+
+<br>
+
+Table 2: Where IDS Courses Are Offered
+
+| Course Offering Unit              | _n_ |
+|-----------------------------------|-----|
+| Mathematics                       | 3   |
+| Mathematics and Statistics        | 2   |
+| Statistics                        | 2   |
+| Center/Institute                  | 2   |
+| Statistics and Data Science       | 2   |
+| Mathematics and Computer Science  | 1   |
+| Data Analytics                    | 1   |
+| Other                             | 1   |
+
+:::
+:::
+:::
+:::
+
+##
+### IDS Teaching/Learning Environments - 2 
+
+::: columns
+::: {.column width="40%"}
+::: {style="font-size: 28px"}
+::: fragment
+
+
+<br>
+
+Table 3: Prerequisite Courses of IDS Courses
+
+<br>
+
+
+|                          | Yes | No  | Not Sure  |
+|--------------------------|-----|-----|-----------|
+| Prerequisite             |  6  |  8  |  0        |
+| Prerequisite to follow-up|  11 |  2  |  1        |
+
+:::
+:::
+:::
+
+::: {.column width="60%"}
+::: {style="font-size: 28px"}
+::: fragment
+
+![](img/5.png)
+
+
+
+:::
+:::
+:::
+:::
+
+
+##
+### IDS Teaching/Learning Environments - 3 
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center; font-size: 32px"}
+::: fragment
+
+Table 5: Class Sizes
+
+| Class Size | _n_ |
+|------------|-----|
+| 300+       | 2   |
+| 200-299    | 1   |
+| 100-199    | 2   |
+| ...        |     |
+| 30-39      | 2   |
+| 20-29      | 3   |
+| 10-19      | 3   |
+| 1-9        | 1   |
+
+:::
+:::
+:::
+
+::: {.column width="60%"}
+::: {style="font-size: 28px"}
+::: fragment
+
+
+__Large IDS classrooms tend to : __  
+
+  - be in research universities,  
+  - have a teaching team (co-instructors, TAs, Graders, Student Mentors),    
+  - provide auto-graded feedback.  
+
+
+<br>
+
+__IDS instructors teaching in small class sizes tend to provide more details on: __  
+
+  - their orientation to teach IDS,  
+  - topic-specific teaching strategies,  
+  - students' learning & motivation   
+  - formative assessment practices.
+
+
+:::
+:::
+:::
+:::
+
+# IDS Instructors and Their Choices
+
+## 
+### Who are these IDS Instructors?
+
+<br>
+
+::: {style="font-size: 32px"}
+
+-   Participating from North America   
+-   Terminal degrees in varying subjects including statistics, mathematics, computer science, genetics, and economics.
+-   Varying number of years of experience in teaching IDS, ranging __from 1 to 10 years of experience__.
+
+:::
+
+##
+### Formal Training in Data Science
+
+![](img/7.png){fig-align="center"}
+
+
+
+##
+### Formal Training in Teaching
+<br>
+
+![](img/8.png){fig-align="center"}
+
+
+
+## Orientations to Teach IDS 
+
+<br> 
+
+__Their perception related to purposes, goals, and reasons for teaching data science reflect three orientations.__
+
+::: {style="font-size: 28px"}
+
+  - Enhance Data Literacy/ Teach to Learn from Data 
+
+  - Familiarize Students with a Programming Language
+
+  - Attracting Students to Major/Minor in Data Science
+
+:::
+
+## 
+### Content Choices of IDS Instructors
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+
+- __All IDS instructor teach__
+  - Introduction to Data Science
+  - Data and Variables
+  - Data Visualization
+  - Data Wrangling
+
+  
+- __Some IDS instructor teach__
+
+|                                   |       |
+|-----------------------------------|-------|
+| Statistical Inference             | 7     |    
+| Ethics                            | 6     |
+| Introduction to Machine Learning  | 4     |
+| Text Analysis                     | 4     |
+| Clustering                        | 3     |
+
+
+
+
+:::
+:::
+
+
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+
+
+| Programming Language          | _n_               |
+|-------------------------------|-------------------|
+| R                             | 7                 |
+| Python                        | 2                 |
+| Both Python and R             | 2                 |
+| Both SQL and R                | 2                 |
+| No programming language       | 1                 |
+
+
+<br>
+
+- Most IDS instructors prepared __their own materials__.
+
+:::
+:::
+:::
+
+
+
+## 
+
+### Instructional Approaches
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+
+__Subject-Specific Teaching Strategies__
+
+- Every IDS instructor uses more than one teaching strategy.
+
+Table 8: Most Commonly Used Teaching Strategies
+
+| Teaching Strategy | _n_ |
+|-------------------|-----|
+| Lecturing         | 9   |
+| Live Coding       | 8   |
+| Questioning       | 3   |
+| Group Work        | 3   |
+| Think-Pair-Share  | 3   |
+
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+
+__Topic Specific Teaching Strategies__
+
+- Only 3 IDS instructors mentioned topic-specific teaching strategies:
+
+  - __Storytelling__ while introducing _real-world cases_  
+
+  - __Questioning__ while teaching _data ethics_ 
+
+  - __Role Playing__  while teaching how to _join data sets_ 
+
+  - __Tactile Simulation__ while teaching _sampling distribution_
+
+:::
+:::
+:::
+
+
+## Dynamic Nature of IDS Teaching
+
+<br>
+
+
+::: {style="font-size: 28px"}
+
+- __Almost all IDS instructor changed their teaching over time. No pattern related to years of experience was observed.__
+
+  - Adding/removing a prerequisite  
+
+  - Refined content choices
+
+  - Refined pedagogical choices
+  
+  - No change (2 participants)
+  
+  - No longer co-teaching (2 participants)
+
+:::
+
+
+# IDS Students
+
+## 
+### Who are IDS Students?
+
+-   Students come from almost every major/department & every grade level.
+
+    -   __Majority__ -- Mathematics, Statistics, Computer Science, Data Science
+    -   __Others__ -- Engineering, Business School, Social Science, Economics, Humanities, Life Sciences, Environmental Science, Political Science, Health Science, Undecided
+
+## 
+### Students' Difficulties in IDS Courses
+
+-	Students without a programming background tend to spend more time learning coding.
+
+- Almost every IDS student experiences difficulties in developing solid _strategic knowledge_*. 
+
+::: {style="font-size: 28px"}
+  - __Strategic Knowledge:__ _integrating  syntactic knowledge  of  programming and conceptual  knowledge  of  disciplines  to  solve  novel problems  (Qian &Lehman,  2017)_.
+
+:::
+
+- More details are in our paper: [(Demirci et al., 2023)](https://escholarship.org/uc/item/01p3k7f3). Learning Difficulties of Introductory Data Science Students.
+
+## 
+### Misconceptions and Stereotypes
+
+<br>
+
+::: {style="font-size: 28px"}
+
+
+- Every IDS instructor shared their observations related to IDS students' misconceptions, stereotypes and possible sources.
+
+__Some Example Statements__	
+
+- If you can code quickly, you're a good data scientist. 
+
+- They're either good or bad at data science (lack of growth mindset). 
+
+- Data science is a field to be a collection of big hammers that if they learn how to swing each of these hammers, they could whack every problem in the world.
+
+__Potential Sources:__ 
+
+- Society, Popular Culture, Cultural Biases, Lack of Knowledge, YouTube...   
+
+
+:::
+
+
+
+
+
+## 
+
+### Frustration and Challenges	of Students
+
+<br>
+
+::: {style="font-size: 28px"}
+
+"They are frustrated that it's not a simple task, very similar to math anxiety." __[Participant 04]__
+
+<br>
+
+"At first, they don't understand that programming is trial and error a lot." __[Participant 11]__
+
+<br>
+
+"Their motivation decreases when they see error message." __[Participant 11 & 12]__
+
+<br>
+
+"Sometimes they are frustrated when they failed to complete a task in R." __[Participant 15]__
+
+
+:::
+
+
+##
+
+::: {style="text-align: center; font-size: 48px"}
+
+<br>
+<br>
+<br>
+<br>
+
+"_Seeing end products in data science creates an outcome-centric perception bias [among students]._" 
+
+_[Participant 07]_
+
+:::
+
+
+#	Highlights and Shadows in IDS Education
+
+## Highlights
+
+![](img/9.png)
+
+## Shadows
+
+<br>
+
+::: {style="font-size: 34px"}
+
+- How do IDS instructors balance teaching in different class sizes and diverse majors?
+
+- What is missing in large class sizes?
+
+- Lack of guidelines/student learning outcomes for IDS Courses
+
+  - Despite high self-efficacy beliefs, the IDS instructors wondered how well their course aligns with the growing consensus on 
+
+    __“What should an introductory data science course be?”__
+  
+:::
+
+## Conclusion
+
+<br>
+
+- We are still beta-testing __what to teach__ and __how to teach__ an IDS course.
+
+  - More systematic studies in IDS education with empirical data are needed.
+  
+  - A policy-level document is required to guide us along the way.
+
+
+
+## 
+#### References
+
+<br>
+
+::: {style="font-size: 20px"}
+
+Asamoah,  D.  A.,  Doran,  D.,  &  Schiller,  S.  (2020).  Interdisciplinarity  in  data  science  pedagogy:  a foundational design.Journal of Computer Information Systems,60(4), 370-377, https://doi.org/10.1080/08874417.2018.1496803
+
+De  Veaux,  R.  D.,  Agarwal,  M.,  Averett,  M.,  Baumer,  B.  S.,  Bray, A.,  Bressoud,  T.  C.,  ...  &  Ye,  P. (2017).  Curriculum  guidelines  for  undergraduate programs  in  data  science.Annual  Review  of Statistics and Its Application,4, 15-30.
+
+Demirci S., Dogucu, M. Zieffler A. & Rosenberg, J.M. (2023). Learning Difficulties of Introductory Data Science Students. In E. Jones (Ed) Proceedings of the International Association for Statistical Education Satellite Conference. https://escholarship.org/uc/item/01p3k7f3 
+
+
+Kelleher, J. D., & Tierney, B. (2018). Data science. MIT press.
+
+Merriam, S. B. (2009). Qualitative Research: A Guide to Design andImplementation. San Francisco: CA: Jossey-Bass.
+
+National  Academies  of  Sciences,  Engineering  and  Medicine  Consensus Report (2018).  Data  Science for Undergraduates: Opportunities and Options.Washington,https://nas.edu/envisioningds.
+
+Qian,  Y.,  &  Lehman,  J.  (2017).  Students’ misconceptions  and  other difficulties  in introductory programming: A literature review.ACM Transactions on Computing Education (TOCE),18(1), 1-24,https://doi.org/10.3102/0002831213477680
+
+Schwab-McCoy, A., Baker, C. M., & Gasper, R. E. (2021). Data science in 2020: Computing, curricula, and challenges for the next 10 years. Journal of Statistics and Data Science Education, 29(sup1), S40-S50.
+
+Yan, D., & Davis, G. E. (2019). A first course in data science. Journal of Statistics Education, 27(2), 99-109,https://doi.org/10.1080/10691898.2019.1623136
+
+:::
+
+
+## References
+::: {style="font-size: 10px"}
+Asamoah, D. A., Doran, D., & Schiller, S. (2020). Interdisciplinarity in data science pedagogy: a foundational design. Journal of Computer Information Systems, 60(4), 370-377, https://doi.org/10.1080/08874417.2018.1496803 
+
+Beitelmal, W. H., Littlejohn, R., Okonkwo, P. C., Hassan, I. U., Barhoumi, E. M., Khozaei, F., ... & Alkaaf, K. A. (2022). Threshold Concepts Theory in Higher Education—Introductory Statistics Courses as an Example. Education Sciences, 12(11), 748.
+
+De Veaux, R. D., Agarwal, M., Averett, M., Baumer, B. S., Bray, A., Bressoud, T. C., ... & Ye, P. (2017). Curriculum guidelines for undergraduate programs in data science. Annual Review of Statistics and Its Application, 4, 15-30.
+
+Donoghue, T., Voytek, B., & Ellis, S. E. (2021). Teaching creative and practical data science at scale. Journal of Statistics and Data Science Education, 29(sup1), 27-39, https://doi.org/10.1080/10691898.2020.1860725 
+
+Fraenkel, J. R., Wallen, N. E., & Hyun, H. H. (2012). How to design and evaluate research in education (Vol. 7, p. 429). New York: McGraw-hill.
+
+Kelleher, J. D., & Tierney, B. (2018). Data science. MIT Press.
+
+Magnusson, S.J., Borko, H., & Krajcik, J.S. (1999). Nature, source, and development of pedagogical content knowledge for science teaching. In: Gess-Newsome, J., & Lederman, N., (Eds.), Examining Pedagogical Content Knowledge. United States: Kluwer Press. pp. 95-132
+
+Merriam, S. B. (2009). Qualitative Research: A Guide to Design and Implementation. San Francisco: CA: Jossey-Bass. 
+
+Merriam, S. B., & Tisdell, E. J. (2016). Qualitative Research: A Guide to Design and Implementation (Fourth Edition). San Francisco.
+
+Mike K. & Hazzan, O. (February 2023). What is data science? Communications of the ACM, 66(2), 12–13, https://doi.org/10.1145/3575663
+
+National Academies of Sciences, Engineering and Medicine Consensus Report (2018). Data Science for Undergraduates: Opportunities and Options. Washington,  https://nas.edu/envisioningds. 
+
+Park, S., & Chen, Y. C. (2012). Mapping out the integration of the components of pedagogical content knowledge (PCK): Examples from high school biology classrooms. Journal of research in science teaching, 49(7), 922-941.
+
+Park, S., & Oliver, J. S. (2008). Revisiting the conceptualisation of pedagogical content knowledge (PCK): PCK as a conceptual tool to understand teachers as professionals. Research in science Education, 38, 261-284.
+
+Park, S., & Suh, J. K. (2019). The PCK map approach to capturing the complexity of enacted PCK (ePCK) and pedagogical reasoning in science teaching. In Repositioning pedagogical content knowledge in teachers’ knowledge for teaching science, 187-199.
+
+Qian, Y., & Lehman, J. (2017). Students’ misconceptions and other difficulties in introductory programming: A literature review. ACM Transactions on Computing Education (TOCE), 18(1), 1-24, https://doi.org/10.3102/0002831213477680 
+
+Shulman, L. (1987). Knowledge and teaching: Foundations of the new reform. Harvard Educational Review, 57(1), 1-23.
+
+Schwab-McCoy, A., Baker, C. M., & Gasper, R. E. (2021). Data science in 2020: Computing, curricula, and challenges for the next 10 years. Journal of Statistics and Data Science Education, 29(sup1), S40-S50.
+
+Thomas, L., Boustedt, J., Eckerdal, A., McCartney, R., Moström, J. E., Sanders, K., & Zander, C. (2010). Threshold concepts in computer science: An ongoing empirical investigation. In Threshold concepts and transformational learning (pp. 241-257). Brill.
+
+Yan, D., & Davis, G. E. (2019). A first course in data science. Journal of Statistics Education, 27(2), 99-109, https://doi.org/10.1080/10691898.2019.1623136 
+
+:::
+
+# Thank you!
