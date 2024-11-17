@@ -1,6 +1,7 @@
 ---
 title: "Evolving Landscape of Data Science Education"
 subtitle: "From Instructor Pedagogy to Policy Perspectives"
+footer: "sinemdemirci.github.io/metu-fall24"
 author: "_Sinem Demirci, Ph.D._"
 format: 
   revealjs:
